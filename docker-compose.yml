@@ -17,6 +17,7 @@ jenkinsnginx:
 # appium
 # kibana
 # sonarqube
+# versioneye
 # graphite
 # dockergc
 # jenkinsslave
