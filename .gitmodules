@@ -1,9 +1,6 @@
 [submodule "jenkins-master"]
 	path = jenkins-master
 	url = git@github.com:levonk/docker-jenkins.git
-[submodule "docker-jenkins-master-data"]
-	path = docker-jenkins-master-data
-	url = git@github.com:levonk/docker-jenkins-master-data.git
 [submodule "jenkins-data"]
 	path = jenkins-data
 	url = git@github.com:levonk/docker-jenkins-master-data.git
