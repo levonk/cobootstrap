@@ -6,12 +6,13 @@ jenkinsmaster:
     - jenkinsdata
   ports:
     - "50000:50000"
-jenkinsnginx:
-  build: jenkins-nginx
-  ports:
-    - "80:80"
-  links:
-    - jenkinsmaster:jenkins-master
+#jenkinsnginx:
+#build: jenkins-nginx
+#ports:
+#- "80:80"
+#links:
+#- jenkinsmaster:jenkins-master
+
 # gitlab
 # elasticsearch
 # appium
@@ -27,5 +28,6 @@ jenkinsnginx:
 # influxdb
 # Zabbix
 # Chef Server
+# cadvisor
 # openldap(?)
 #
