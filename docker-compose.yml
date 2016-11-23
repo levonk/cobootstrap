@@ -6,13 +6,14 @@ jenkinsmaster:
     - jenkinsdata
   ports:
     - "50000:50000"
-mainnginx:
-  build: nginx
-  ports:
-    - "80:80"
-    - "443:443"
-  links:
-    - jenkinsmaster:jenkins-master
+    - "8080:8080"
+#mainnginx:
+#build: nginx
+#ports:
+#- "80:80"
+#- "443:443"
+#links:
+#- jenkinsmaster:jenkins-master
 
 #ports:
 #- "80:80"
